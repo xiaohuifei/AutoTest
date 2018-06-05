@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6cb63cc-6499-40cf-96c9-1df90ed542d9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/DependTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/ExpectedExcepiton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/IngoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/groups/GroupsOnClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/groups/GroupsOnClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/groups/GroupsOnClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/groups/GroupsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/multThread/MultiThreadOnAnnotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/multThread/MultiThreadOnXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/paramter/DataProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/paramter/ParamterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/suite/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/suite/PayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/suite/SuiteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/resources/Paramter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/resources/groupsOnClass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/resources/suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter/src/main/resources/thread.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/TimeOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter/target/classes/thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter/target/classes/thread.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="thread.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thread.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter/src/main/resources/thread.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="285">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeOutTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/TimeOutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -116,6 +106,7 @@
         <option value="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/multThread/MultiThreadOnXml.java" />
         <option value="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/BasicAnnotation.java" />
         <option value="$PROJECT_DIR$/Chapter/src/main/resources/thread.xml" />
+        <option value="$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/TimeOutTest.java" />
       </list>
     </option>
   </component>
@@ -208,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml">
+  <component name="RunManager" selected="TestNG.TimeOutTest.testFailed">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -280,64 +271,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="DataProviderTest.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.paramter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.paramter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.paramter.DataProviderTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DataProviderTest.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.paramter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.paramter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.paramter.DataProviderTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="MultiThreadOnAnnotion.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
@@ -352,6 +285,64 @@
       <option name="PACKAGE_NAME" value="com.course.testng.multThread" />
       <option name="MAIN_CLASS_NAME" value="com.course.testng.multThread.MultiThreadOnAnnotion" />
       <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TimeOutTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.TimeOutTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TimeOutTest.testFailed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.TimeOutTest" />
+      <option name="METHOD_NAME" value="testFailed" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -391,18 +382,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.DataProviderTest" />
-      <item itemvalue="TestNG.DataProviderTest.test1" />
-      <item itemvalue="TestNG.DataProviderTest.test2" />
       <item itemvalue="TestNG.MultiThreadOnAnnotion.test" />
       <item itemvalue="TestNG.D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" />
+      <item itemvalue="TestNG.TimeOutTest" />
+      <item itemvalue="TestNG.TimeOutTest.testFailed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TimeOutTest.testFailed" />
+        <item itemvalue="TestNG.TimeOutTest" />
         <item itemvalue="TestNG.D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" />
         <item itemvalue="TestNG.MultiThreadOnAnnotion.test" />
         <item itemvalue="TestNG.DataProviderTest" />
-        <item itemvalue="TestNG.DataProviderTest.test2" />
-        <item itemvalue="TestNG.DataProviderTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -420,24 +411,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MultiThreadOnAnnotion_test - 2018.06.03 at 20h 15m 25s.xml">
-      <configuration name="MultiThreadOnAnnotion.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.03 at 20h 24m 50s.xml">
-      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.03 at 20h 25m 57s.xml">
-      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 20h 56m 52s.xml">
-      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 20h 59m 59s.xml">
-      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 00m 29s.xml">
-      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 01m 32s.xml">
       <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
     </history-entry>
@@ -449,6 +422,24 @@
     </history-entry>
     <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 06m 31s.xml">
       <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 10m 30s.xml">
+      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 11m 16s.xml">
+      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 11m 29s.xml">
+      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Program_Files_Git_workspace_muke_AutoTest_Chapter_src_main_resources_thread_xml - 2018.06.05 at 21h 11m 51s.xml">
+      <configuration name="D:/Program Files/Git/workspace/muke/AutoTest/Chapter/src/main/resources/thread.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TimeOutTest - 2018.06.05 at 21h 18m 09s.xml">
+      <configuration name="TimeOutTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TimeOutTest_testFailed - 2018.06.05 at 21h 19m 00s.xml">
+      <configuration name="TimeOutTest.testFailed" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -685,8 +676,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter/src/main/resources/thread.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="285">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter/src/main/java/com/course/testng/TimeOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
